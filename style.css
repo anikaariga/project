@@ -6,12 +6,7 @@ header
 	background-image: url(imagess/flywheel.jpg);
 	
 }
-nav
-{
-	font-variant: small-caps;
-	font-size: 150%;
-	font-family: Arial, "Time New Roman";
-}
+
 h2
 {
 	color: #666666;
@@ -19,52 +14,6 @@ h2
 }
 body
 {
-	background-color: #b2b2b2;
+	background-color: black;
 	margin: 4%;
-}
-section
-{
-	width: 30%;
-	display: inline-block;
-	float: left;
-	margin-right: 2%;
-	transition-property: color, width, background, border-radius;
-	transition-duration: 0.5s;
-	transition-timing-function: linear;
-	transition-delay: 0.5s;
-	
-}
-section:hover
-{
-	color:#666666;
-	width:350px;
-	background: #00B7ea;
-}
-section:active
-{
-	color:#7fffd4;
-	width: 150px;
-	background: #8a2be2;
-}
-footer
-{
-	clear: left;
-}
-details
-{
-	background: #B3B3B3;
-	font-style: italic;
-}
-summary
-{
-	font-style: normal;
-
-}
-footer
-{
-	background: #666666
-}
-img
-{
-	width: 75px;
 }
